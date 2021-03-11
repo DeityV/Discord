@@ -176,10 +176,7 @@ module.exports = (client, commandOptions) => {
   })
 }
 
-/**
- * I forgot to add this function to the video.
- * It updates the cache when the !setprefix command is ran.
- */
+
 module.exports.updateCache = (guildId, newPrefix) => {
   guildPrefixes[guildId] = newPrefix
 }
